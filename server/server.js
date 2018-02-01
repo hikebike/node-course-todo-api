@@ -33,7 +33,6 @@ app.get('/todos', (req, res) => {
 
 
 //GET /todos/12345 part of url
-
 app.get('/todos/:id', (req, res) => {
     var id = req.params.id;
     
@@ -59,14 +58,7 @@ app.get('/todos/:id', (req, res) => {
         console.log(e);
         return res.status(404).send();
     });
-
-
-
-
-
-
-
-})
+});
 
 
 
