@@ -15,6 +15,7 @@
     "alias": "node-todo-api",
     "type": "npm",
     "MONGODB_URI": "@mongodb_uri",
+    "NODE_ENV": "production",
     "engines": {
       "node": "8.9.4"
     }},
